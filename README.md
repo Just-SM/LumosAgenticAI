@@ -4,9 +4,10 @@ Instalation
 - create a Python Virtual Environment (optional but recommended)
 
 python3 -m venv venv
-source venv/bin/activate  # Linux/macOS
+`source venv/bin/activate `  # Linux/macOS
 > or
-venv\Scripts\activate     # Windows
+
+`venv\Scripts\activate`     # Windows
 
 - run `pip install -r requirements.txt`
 
