@@ -12,8 +12,9 @@ venv\Scripts\activate     # Windows
 
 - run `streamlit run app.py`
 
+- add key to .env
 
-Tasks 
+# Tasks 
 1. Make following operation work (with tools)
 - "Multiply 5 by 7" 
 - "What is 12 - 9?" 
@@ -25,7 +26,7 @@ Tasks
 
 
 
-Hints
+# Hints
 
 1. Adding New Tools:
    - Define a new function that performs some action.
@@ -38,7 +39,7 @@ Hints
        '''Add two numbers.'''
        return a + b
    
-   # Later in agent function:
+   ### Later in agent function:
    agent = create_react_agent(llm, tools=[multiply, add])
 
 2. Adding More Steps to the Graph:
